@@ -1,0 +1,135 @@
+body{
+    background: #f1f2f4;
+    margin: 0px;
+}
+.Navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    width: 100vw;
+    height: 65px;
+}
+.search{
+    background-color: #f0f5ff;
+    width: 40%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    border-radius: 7px;
+    padding: 0px 10px;
+    
+}
+.search i{
+    color: #75758b;
+}
+input{
+    border: none;
+    background: none;
+    font-size: larger;
+    width: 100%;
+}
+input:focus{
+    outline: none;
+    opacity: 70%;
+}
+i{
+    font-size: larger;
+}
+.navitem{
+    display: flex;
+    align-items: center;
+    padding: 0px 6px;
+    /* background-color: yellow; */
+    height: 45px;
+    border-radius: 8px;
+}
+.navitem p{
+    font-family: Arial, Helvetica;
+    font-size: larger;
+    padding-left: 5px;
+}
+.navitems{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* background-color: red; */
+    width: 40%;
+}
+.navitem:hover{
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
+.dabba{
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px;
+    padding: 10px;
+}
+.category{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, Helvetica;
+    font-weight: 600;
+}
+.category:hover{
+    cursor: pointer;
+}
+.cardcontainer{
+    margin: 10px;
+    padding: 10px;
+    background-color: white;
+}
+.cardcontainer h2{
+    font-family: Arial, Helvetica;
+}
+.banner{
+    display: flex;
+    justify-content: center;
+}
+.banner img{
+    width: 98.7%;
+    border-radius: 4px;
+}
+.banner:hover{
+    cursor: pointer;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+}
+.cardlabel{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px 0px 10px;
+}
+.cardlabel i{
+    padding: 6px 10px;
+    background-color: blue;
+    border-radius: 50%;
+    color: white;
+}
+.card{
+    padding: 10px 25px;
+    border-radius: 4px;
+    border: 2px solid #f1f2f4;
+    margin: 16px;
+}
+.card img{
+    height: 150px;
+}
+.card p{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont;
+}
+.card:hover{
+    cursor: pointer;
+}
+form{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
